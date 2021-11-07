@@ -1,0 +1,1 @@
+-- alter table Video add constraint CK_UserRating check (videoUserRating >= 0.0 and videoUserRating <= 5.0);
