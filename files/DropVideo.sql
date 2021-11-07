@@ -6,3 +6,4 @@ alter table Movie drop constraint FK_MovieToVideo;
  drop table if exists Video;
  drop table if exists Movie;
  drop table if exists TVShow;
+ drop table if exists Streams;

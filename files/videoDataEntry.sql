@@ -9,7 +9,7 @@ use Streaming;
 -- insert into Movie values(2,"Francis Ford Coppola",195);
 
 insert into Video values(1,"The Dark Knight",4.5,"PG-13","Action");
-insert into Video values(2,"The Godfather",5.2,"R","Drama");
+insert into Video values(2,"The Godfather",4.2,"R","Drama");
 insert into Video values(3, "Lord of the Rings", 4.7, "PG-13", "Action");
 insert into Video values(4, "Saw", 3.8, "R", "Horror");
 insert into Video values(5, "Toy Story", 4.1, "G", "Adventure");
