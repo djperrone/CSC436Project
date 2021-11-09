@@ -2,6 +2,10 @@ create database if not exists Streaming;
 
 use Streaming;
 
+drop table Customer;
+drop table streamingplatform;
+drop table SubscribesTo;
+
 create table if not exists Customer (
 customerID int unique not null,
 customerFName varchar(20),
@@ -17,7 +21,6 @@ streamingPlatformName varChar(20),
 streamingPlatformPrice float,
 Primary Key(streamingPlatformID)
 );
-drop table Streams;
 
 create table if not exists SubscribesTo (
 customerID int,

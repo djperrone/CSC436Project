@@ -49,4 +49,3 @@ Insert into Customer values(10,"Danielle", "Fernandez", "DanDernan@gmail.com");
 
 
 
-select Customer.customerFName, StreamingPlatform.streamingPlatformName from Customer join StreamingPlatform join SubscribesTo on Customer.customerID = SubscribesTo.customerID and StreamingPlatform.streamingPlatformID = SubscribesTo.StreamingPlatformID ;-- group by Customer.customerFName;

@@ -1,13 +1,5 @@
 use Streaming;
 
--- insert into Video values(1,"The Dark Knight",4.5,"PG-13","Action");
--- insert into Movie values(1,"Christopher Nolan",213);
-
--- insert into Video values(2,"The Godfather",5.2,"R","Drama");
-
--- insert into Video values(2,"The Godfather",4.2,"R","Drama");
--- insert into Movie values(2,"Francis Ford Coppola",195);
-
 insert into Video values(1,"The Dark Knight",4.5,"PG-13","Action");
 insert into Video values(2,"The Godfather",4.2,"R","Drama");
 insert into Video values(3, "Lord of the Rings", 4.7, "PG-13", "Action");
@@ -91,9 +83,9 @@ insert into Streams values(5,15);
 insert into Streams values(5,16);
 insert into Streams values(5,1);
 
-select * from Movie;
-select * from Video;
+-- select * from Movie;
+ select * from Video;
 
-select Video.videoName, Movie.directorName from Movie join Video ON Movie.movieID = Video.videoID where Movie.movieRuntime > 150;
+-- select Video.videoName, Movie.directorName from Movie join Video ON Movie.movieID = Video.videoID where Movie.movieRuntime > 150;
 
-select Video.videoName, streamingPlatform.streamingPlatformName from Video join StreamingPlatform join Streams on video.videoID = Streams.videoID and streamingPlatform.streamingPlatformID = Streams.streamingPlatformID;
+-- select Video.videoName, streamingPlatform.streamingPlatformName from Video join StreamingPlatform join Streams on video.videoID = Streams.videoID and streamingPlatform.streamingPlatformID = Streams.streamingPlatformID;
