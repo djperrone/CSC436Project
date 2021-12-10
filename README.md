@@ -8,3 +8,4 @@ We Created a database that stores information about which movies/TV shows are st
 
 
 For this project we used MySQL for our database. 
+![Screenshot from 2021-12-10 13-49-34](https://user-images.githubusercontent.com/79820503/145626219-d190f40c-8046-4286-b194-e0cb2e2c960f.png)
